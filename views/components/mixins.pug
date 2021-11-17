@@ -1,0 +1,8 @@
+mixin list(items, span)
+	ul
+		each item in items
+			if span == true
+				li
+					span= item
+			else
+				li= item

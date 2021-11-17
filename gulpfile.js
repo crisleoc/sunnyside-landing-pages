@@ -5,14 +5,14 @@ const sass = require('gulp-sass')(require('sass'))
 
 function buildCSS() {
 	return gulp
-		.src('./sass/**/*.scss')
+		.src('./sass/*.scss')
 		.pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError))
 		.pipe(gulp.dest('./css'));
 }
 
 function buildHTML() {
 	return gulp
-		.src('views/**/*.pug')
+		.src('views/*.pug')
 		.pipe(pug({
 			doctype: 'html',
 			pretty: true
