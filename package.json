@@ -1,0 +1,27 @@
+{
+	"name": "sunnyside-landing-pages",
+	"version": "1.0.0",
+	"description": "![Design preview for the Sunnyside agency landing page coding challenge](./design/desktop-preview.jpg)",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/crisleoc/sunnyside-landing-pages.git"
+	},
+	"keywords": [],
+	"author": "Cristian Castañeda <crisleoco14@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/crisleoc/sunnyside-landing-pages/issues"
+	},
+	"homepage": "https://github.com/crisleoc/sunnyside-landing-pages#readme",
+	"devDependencies": {
+		"gulp": "^4.0.2",
+		"gulp-cli": "^2.3.0",
+		"gulp-pug": "^5.0.0",
+		"gulp-sass": "^5.0.0",
+		"sass": "^1.43.4"
+	}
+}
